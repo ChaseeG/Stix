@@ -1,0 +1,9 @@
+﻿<Application x:Class="Stix.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Stix"
+             StartupUri="Src/Forms/Main/MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
