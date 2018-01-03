@@ -5,6 +5,7 @@ namespace Stix.Rest.Responses.Login
     public class Login
     {
         public int Id { get; set; }
+        [JsonProperty(PropertyName = "screen_name")]
         public string ScreenName { get; set; }
         public string Language { get; set; }
         [JsonProperty(PropertyName = "game_account_type")]

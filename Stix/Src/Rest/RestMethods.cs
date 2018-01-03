@@ -20,7 +20,7 @@ namespace Stix.Rest
             if (response == null) throw new HttpRequestException("Login failed!");
 
             // Handle login response
-            ClientManager.HandleLoginResponse(response);
+            ClientManager.HandleLoginResponseAsync(response);
         }
     }
 }
